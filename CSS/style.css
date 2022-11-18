@@ -13,6 +13,19 @@ h2 {
     font-size: 3.2rem;
 }
 
+h3 {
+    color: var(--text-black-color);
+    line-height: 1.2;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.step {
+    color: var(--text-color);
+    text-decoration-line: underline;
+    font-weight: 600;
+}
+
 .digital {
     font-weight: 600;
     line-height: 1.21;
@@ -32,7 +45,7 @@ p {
     font-size: 1.5rem;
     font-weight: 600;
     line-height: 1.2;
-    
+    text-decoration: none;
 }
 .button-black-long {
     background: var(--text-color);
@@ -73,13 +86,55 @@ article {
 .square-button {
     font-weight: 600;
     font-size: 1.4rem;
-    line-height: 1.7rem;
+    line-height: 1.7;
     text-transform: uppercase;
 }
 
 .price {
     font-size: 1.2rem;
-    line-height: 1.5rem;
     line-height: 1.25;
+    font-weight: 600;
 }
 
+.date {
+    color: var(--text-black-color);
+    line-height: 1.25;
+    font-size: 1.2rem;
+}
+
+.natalia {
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 2rem;
+    color: var(--text-black-color);
+}
+
+footer {
+    background: #181818;
+}
+
+.footer-links {
+    color: var(--button-text-color);
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 169.02%;
+    font-size: 1.4rem;
+}
+
+.frame {
+    border-bottom:1px solid var(--text-color);
+}   
+
+.info-footer {
+    line-height: 1.2;
+    color: var(--button-text-color);
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
