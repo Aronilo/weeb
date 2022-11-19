@@ -35,7 +35,7 @@ p {
     font-size: 1.5rem;
     color: var(--text-color);
     font-weight: 400;
-    list-style: 1.6;
+    line-height: 1.6;
 }
 
 .button-black {
@@ -63,6 +63,18 @@ p {
     text-decoration: none;
 }
 
+.button-black-long.inst {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.button-black-long.inst img
+{
+    display: block;
+    margin-right: 8px;
+}
+
 article {
     color: var(--text-black-color);
     font-weight: 600;
@@ -88,6 +100,10 @@ article {
     font-size: 1.4rem;
     line-height: 1.7;
     text-transform: uppercase;
+    border: 1px solid var(--text-black-color);
+    border-radius: 2px;
+    max-width: max-content;
+    padding: 4px 8px;
 }
 
 .price {
@@ -123,6 +139,8 @@ footer {
 
 .frame {
     border-bottom:1px solid var(--text-color);
+    border-top:1px solid var(--text-color);
+    padding: 21px 0;
 }   
 
 .info-footer {
