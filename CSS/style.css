@@ -6,6 +6,40 @@
     --button-text-color: #FFFFFF;
     --subtitle-text-color: #939393;
     --text-black-color: #000000;
+    --grey: #F9F9F9;
+}
+
+header {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.logo {
+    margin-top: 16px;
+}
+
+h1 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+section {
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 h2 {
@@ -38,6 +72,10 @@ p {
     line-height: 1.6;
 }
 
+.digital-text {
+    margin-bottom: 20px;
+}
+
 .button-black {
     background: var(--text-color);
     border-radius: 82px;
@@ -46,7 +84,10 @@ p {
     font-weight: 600;
     line-height: 1.2;
     text-decoration: none;
+    padding: 13px 40px;
+    display: inline-block;
 }
+
 .button-black-long {
     background: var(--text-color);
     border-radius: 82px;
@@ -58,9 +99,19 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 13px 39px;
+    padding: 0.9em 2.7em;
     text-align:center;
     text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.header {
+    padding-top: 44px;
+    padding-bottom: 22px;
+}
+
+.view-all {
+    margin-top: 30px;
 }
 
 .button-black-long.inst {
@@ -95,6 +146,18 @@ article {
     text-decoration: none;
 }
 
+.grey {
+    background-color:var(--grey);
+}
+
+.h3 {
+    padding-top: 8px;
+}
+
+.padding-bottom {
+    padding-bottom: 34px;
+}
+
 .square-button {
     font-weight: 600;
     font-size: 1.4rem;
@@ -104,6 +167,7 @@ article {
     border-radius: 2px;
     max-width: max-content;
     padding: 4px 8px;
+    margin-top: 22px;
 }
 
 .price {
@@ -137,6 +201,23 @@ footer {
     font-size: 1.4rem;
 }
 
+.balmlabs {
+    color: var(--subtitle-text-color);
+    font-weight: 600;
+    line-height: 125%;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-top: 17px;
+}
+
+.jacket {
+    color: var(--text-black-color);
+    margin-bottom: 18px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 121%;
+}
+
 .frame {
     border-bottom:1px solid var(--text-color);
     border-top:1px solid var(--text-color);
@@ -155,4 +236,12 @@ footer {
     font-weight: 400;
     font-size: 1.5rem;
     color: var(--text-color);
+}
+
+.counter {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: #fff;
 }
