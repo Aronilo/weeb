@@ -132,6 +132,10 @@ article {
     font-size: 1.4rem;
 }
 
+.img {
+    margin-bottom: 16px;
+}
+
 .button-white {
     border-radius: 82px;
     color: var(--text-color);
@@ -144,6 +148,7 @@ article {
     padding: 13px 39px;
     border: 1px solid var(--subtitle-text-color);
     text-decoration: none;
+    margin-bottom: 21px;
 }
 
 .grey {
@@ -170,6 +175,19 @@ article {
     margin-top: 22px;
 }
 
+.news {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.7;
+    text-transform: uppercase;
+    border: 1px solid var(--text-black-color);
+    border-radius: 2px;
+    max-width: max-content;
+    padding: 4px 8px;
+    margin-top: 22px;
+    margin-bottom: 21px;
+}
+
 .price {
     font-size: 1.2rem;
     line-height: 1.25;
@@ -187,6 +205,7 @@ article {
     line-height: 1.2;
     font-size: 2rem;
     color: var(--text-black-color);
+    padding-bottom: 21px;
 }
 
 footer {
@@ -199,6 +218,10 @@ footer {
     font-weight: 400;
     line-height: 169.02%;
     font-size: 1.4rem;
+}
+
+.footer-li {
+    padding-bottom: 16px;
 }
 
 .balmlabs {
@@ -218,10 +241,32 @@ footer {
     line-height: 121%;
 }
 
+.about {
+    padding-top: 111px;
+}
+
+.lorem{
+    padding-top: 6px;
+}
+
+.shop-now{
+    margin-top: 25px;
+    margin-bottom: 43px;
+}
+
+.img-foot{
+    margin-bottom: 68px;
+}
+
+footer {
+    padding-left: 16px;
+}
+
 .frame {
     border-bottom:1px solid var(--text-color);
     border-top:1px solid var(--text-color);
-    padding: 21px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }   
 
 .info-footer {
@@ -236,6 +281,8 @@ footer {
     font-weight: 400;
     font-size: 1.5rem;
     color: var(--text-color);
+    padding-top: 21px;
+    padding-bottom: 21px;
 }
 
 .counter {
@@ -245,3 +292,4 @@ footer {
     background-color: #000000;
     color: #fff;
 }
+
