@@ -312,10 +312,29 @@ article {
     padding: 1em;
 }
 
+.flex-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+hr{
+    margin-left: -100px;
+}
+
+.flex-links {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+
 .row {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .counter {
