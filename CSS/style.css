@@ -9,6 +9,20 @@
     --grey: #F9F9F9;
 }
 
+img
+{
+    display: block;
+    width: 100%;
+}
+
+.container-1216
+{
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+    padding: 0;
+}
+
 header {
     padding-left: 16px;
     padding-right: 16px;
@@ -75,8 +89,42 @@ p {
 
 .section-1 {
     margin-bottom: 36px;
+
+    background-image: url("/image/mobile-first-section-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+@media screen and (min-width: 993px) {
+    .section-1
+    {
+        min-height: 853px;
+        background-image: url("/image/blue-behind.png");
+    }
+}
+
+.section-1__babes.desktop
+{
+    display: none;
+    max-width: 500px;
+}
+.section-1__babes.mobile
+{
+    max-width: 380px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 769px)
+{
+    .section-1__babes.desktop
+    {
+        display: block;
+    }
+    .section-1__babes.mobile
+    {
+        display: none;
+    }
+}
 .article {
     margin-bottom: 30px;
 }
@@ -234,6 +282,17 @@ article {
     margin-bottom: 68px;
 }
 
+.footer__up.wrapper,
+.footer__bottom.wrapper
+{   
+    padding: 0;
+}
+
+.footer__up.wrapper
+{
+    padding: 0 16px;
+}
+
 .footer-links {
     color: var(--button-text-color);
     text-decoration: none;
@@ -281,21 +340,34 @@ article {
 }
 
 .footer {
-    padding: 0 16px;
     background: #181818;
 }
 
-.frame {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}   
+.info-footer__wrapper
+{
+    width: 100%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
 
-.info-footer {
+    padding: 24px 15px;
+}
+.info-footer 
+{
     line-height: 1.2;
     color: var(--button-text-color);
     font-weight: 600;
     font-size: 1.5rem;
     text-transform: uppercase;
+
+    width: 100%;
+}
+.info-footer a
+{
+    color: #fff;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: inherit;
+    font-weight: inherit;
 }
 
 .info {
@@ -348,18 +420,6 @@ hr{
 .footer
 {
     position: relative;
-}
-
-.footer hr
-{
-    position: absolute;
-    width: 100vw;
-    left: 50%;
-    transform: translateX(-50%);
-
-    margin-left: 0;
-
-    bottom: 0;
 }
 
 .wrapper.row
