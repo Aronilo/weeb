@@ -26,6 +26,7 @@ img
 header {
     padding-left: 16px;
     padding-right: 16px;
+    display: flex;
 }
 
 .visually-hidden {
@@ -43,6 +44,7 @@ header {
 
 .logo {
     margin-top: 16px;
+    width: 140px;
 }
 
 h1 {
@@ -59,6 +61,12 @@ section {
 h2 {
     color: var(--header-color);
     font-size: 3.2rem;
+}
+
+.head-basket {
+    margin-left: 93px;
+    display: flex;
+    padding: 8px 14px;
 }
 
 h3 {
