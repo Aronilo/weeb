@@ -27,6 +27,36 @@ header {
     padding-left: 16px;
     padding-right: 16px;
     display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.ourUl{
+    list-style-type: none;
+    display: flex;
+    max-width: 456px;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.first-part-header{
+    display: flex;
+    width: 100%;
+    max-width: 634px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.menu-shop {
+    display: none;
 }
 
 .visually-hidden {
@@ -43,7 +73,6 @@ header {
 }
 
 .logo {
-    margin-top: 16px;
     width: 140px;
 }
 
@@ -104,11 +133,18 @@ p {
     background-size: cover;
 }
 
+
 @media screen and (min-width: 993px) {
     .section-1
     {
         min-height: 853px;
         background-image: url("/image/blue-behind.png");
+    }
+    .menu {
+        display: none;
+    }
+    .menu-shop {
+        display: flex;
     }
 }
 
