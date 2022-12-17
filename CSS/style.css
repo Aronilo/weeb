@@ -324,8 +324,6 @@ p {
     }
 }
 
-
-
 .article {
     color: var(--text-black-color);
     font-weight: 600;
@@ -588,7 +586,7 @@ p {
         gap: 1.5rem;
         justify-content: center;
     }
-
+`
     .section-4-img img {
         width: 30vw;
     }
