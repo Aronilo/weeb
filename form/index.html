@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Макет</title>
+    <link rel="stylesheet" href="/CSS/reseter.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/form.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="first-part-header">
+        <a href=""
+          ><img class="logo" src="/image/Verseser-logo.svg" alt="Verseser"
+        /></a>
+        <ul class="ourUl">
+          <li><a href="/">Shop now</a></li>
+          <li><a href="/form/">Registration</a></li>
+          <li><a href="/">Colaboration</a></li>
+          <li><a href="/">Meta News</a></li>
+          <li><a href="/">About</a></li>
+        </ul>
+      </nav>
+      <div class="heade-div">
+        <ul class="header-social-networks">
+          <li>
+            <a href="index.html"><img src="/image/insta.svg" alt="inst" /></a>
+          </li>
+          <li>
+            <a href="index.html"><img src="/image/tt.svg" alt="tiktok" /></a>
+          </li>
+          <li>
+            <a href="index.html"><img src="/image/twit.svg" alt="Twitter" /></a>
+          </li>
+          <li>
+            <a href="index.html"
+              ><img src="/image/pinteres.svg" alt="Pinterest"
+            /></a>
+          </li>
+          <li>
+            <a href="index.html"><img src="/image/ds.svg" alt="discord" /></a>
+          </li>
+        </ul>
+        <button class="head-basket">
+          <img src="/image/basket.svg" alt="Cart" />
+          <div class="counter">2</div>
+        </button>
+      </div>
+      <button class="menu">
+        <img class="menu-img" src="/image/ci_menu-alt-02.svg" alt="Menu" />
+      </button>
+    </header>
+    <main>
+        <h1 class="reg">Регистрация</h1>
+        <fieldset class="fieldset-1">
+            <legend>
+                Личная информация
+            </legend>
+        <div class="input-wrapper">
+            <label for="name">Имя</label>
+            <input type="text" id="name" placeholder="Имя" required>
+        </div>
+        <div class="input-wrapper">
+            <label for="date">Дата рождения</label>
+            <input type="date" id="date" required>
+        </div>
+        <div class="input-wrapper">
+            <label for="sex">Пол</label>
+            <select name="" id="sex" required>
+                <option value="male">Мужской</option>
+                <option value="female">Женский</option>
+            </select>
+        </div>
+    </fieldset>
+    <fieldset class="fieldset-2">
+        <legend>
+            Контактные данные
+        </legend>
+        <div class="input-wrapper">
+            <label for="password">Пароль</label>
+            <input type="password" id="password" required>
+        </div>
+        </div>
+        <div class="input-wrapper">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="email" required>
+        </div>
+        <div class="input-wrapper">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" placeholder="Телефон" required>
+        </div>
+        <div class="checkboxes">
+            <div class="input-wrapper">
+                <P class="p-wrapper">Удобное время для связи</P>
+                <input type="checkbox" id="connection1" value="Утро">
+                <label for="connection1">Утро</label>
+            </div>
+            <div class="input-wrapper">
+                <input type="checkbox" id="connection2" value="День">
+                <label for="connection2">День</label>
+            </div>
+            <div class="input-wrapper">
+                <input type="checkbox" id="connection3" value="Вечер">
+                <label for="connection3">Вечер</label>
+            </div>
+            <div class="input-wrapper">
+                <input type="checkbox" id="connection4" value="Ночь">
+                <label for="connection4">Ночь</label>
+            </div>
+        </div>
+    </fieldset>
+    <button class="button-send">
+        <span>Отправить данные</span> 
+        <img src="/image/send.svg" alt="send" width="50" height="50">
+    </button>
+    <button class="button-clear">
+        <span>Очистить</span> 
+        <img src="/image/clear.svg" alt="clear"width="50" height="50">
+    </button>
+    </main>
+    <footer class="footer">
+        <div class="footer-mobile">
+          <div class="wrapper row footer__up">
+            <div class="footer-1">
+              <img src="/image/verseser.png" alt="verseser" />
+              <ul class="flex-img">
+                <li>
+                  <a href="index.html"
+                    ><img src="/image/inst.svg" alt="inst"
+                  /></a>
+                </li>
+                <li>
+                  <a href="index.html"
+                    ><img src="/image/TikTok.svg" alt="tiktok"
+                  /></a>
+                </li>
+                <li>
+                  <a href="index.html"
+                    ><img src="/image/twitter.svg" alt="Twitter"
+                  /></a>
+                </li>
+                <li>
+                  <a href="index.html"
+                    ><img src="/image/pinterest.svg" alt="Pinterest"
+                  /></a>
+                </li>
+                <li>
+                  <a href="index.html"
+                    ><img src="/image/discord.svg" alt="discord"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <ul class="flex-links">
+              <li class="footer-li"><a class="footer-links" href="">About</a></li>
+              <li class="footer-li">
+                <a class="footer-links" href="">How to wear</a>
+              </li>
+              <li class="footer-li">
+                <a class="footer-links" href="">Refund Policy</a>
+              </li>
+              <li class="footer-li">
+                <a class="footer-links" href="">Terms of service</a>
+              </li>
+              <li class="footer-li">
+                <a class="footer-links" href="">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="wrapper row footer__bottom">
+            <div class="info-footer__wrapper">
+              <p class="info-footer">
+                Contact us <a href="">info@verseser.com</a>
+              </p>
+            </div>
+            <p class="info-footer info">Verseser © 2022 All rights reserved</p>
+          </div>
+        </div>
+        <div class="footer-pc">
+          <div class="wrapper row footer__up">
+            <div class="footer-1">
+              <ul class="flex-links">
+                <li class="footer-li">
+                  <a class="footer-links" href="">About</a>
+                </li>
+                <li class="footer-li">
+                  <a class="footer-links" href="">How to wear</a>
+                </li>
+                <li class="footer-li">
+                  <a class="footer-links" href="">Refund Policy</a>
+                </li>
+                <li class="footer-li">
+                  <a class="footer-links" href="">Terms of service</a>
+                </li>
+                <li class="footer-li">
+                  <a class="footer-links" href="">Privacy Policy</a>
+                </li>
+              </ul>
+              <img src="/image/verseser.png" alt="verseser" />
+              <ul class="flex-img">
+                <li>
+                  <a href="index.html"
+                    ><img src="/image/inst.svg" alt="inst"
+                  /></a>
+                </li>
+                <li>
+                  <a href="index.html"
+                    ><img src="/image/TikTok.svg" alt="tiktok"
+                  /></a>
+                </li>
+                <li>
+                  <a href="index.html"
+                    ><img src="/image/twitter.svg" alt="Twitter"
+                  /></a>
+                </li>
+                <li>
+                  <a href="index.html"
+                    ><img src="/image/pinterest.svg" alt="Pinterest"
+                  /></a>
+                </li>
+                <li>
+                  <a href="index.html"
+                    ><img src="/image/discord.svg" alt="discord"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="wrapper row1 footer__bottom">
+            <div class="info-footer__wrapper2">
+              <p class="info-footer">
+                Contact us <a href="mailto:info@verseser.com">info@verseser.com</a>
+              </p>
+            </div>
+            <p class="info-footer info">Verseser © 2022 All rights reserved</p>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>
