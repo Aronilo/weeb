@@ -6,6 +6,7 @@ body {
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: flex-start;
+    margin: 0 auto;
 }
 
 header,main,footer {
@@ -14,12 +15,28 @@ header,main,footer {
 
 main {
     flex-grow: 1;
-
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(57, 30, 212, 0.671);
 }
 
 .reg {
     display: flex;
     justify-content: center;
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.reg::selection{
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 140, 201);
+}
+
+.reg:hover {
+    transform: scale(1.1);
+    color: aqua;
     font-size: 3rem;
 }
 
@@ -38,17 +55,59 @@ main {
     font-size: 2.5rem;
 }
 
+.input-wrapper > input:focus {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(240, 140, 202, 0.432);
+}
+
 .p-wrapper {
     font-size: 3rem;
+    padding: 2rem;
+    color: rgb(28, 243, 232);
+}
+legend {
+    font-size: 3rem;
+    padding: 2rem;
+    color: rgb(28, 243, 232);
+}
+
+.button-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.checkboxes > input-wrapper > label:active{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(240, 140, 202, 0.432);
+}
+
+.button-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .button-send {
     display: flex;
+    width: 150px;
+    height: 50px;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(240, 140, 201);
+    cursor: pointer;
 }
 .button-send:hover  {
     transform: scale(1.1);
 }
 
-.button-clear:hover {
-    transform: scale(1.1);
-}
